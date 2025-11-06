@@ -21,9 +21,9 @@ A minimalist teaser for the about page.
 
 	// Data
 	const teamMember: TeamMember = {
-		name: "Alex Morgan",
-		role: "Founder & CEO",
-		image: "https://www.unc.mn/image-placeholder.svg"
+		name: "Sarah Chen",
+		role: "Co-founder & CEO",
+		image: "/generated/image-editorial-documentary-portrait-of-a-smal.webp"
 	};
 </script>
 
@@ -32,7 +32,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"At Google, we built growth systems for the world's biggest companies. Then I watched my uncle's hardware store drown in disconnected tools—five apps, zero coordination. That's when we realized small businesses don't need more software. They need one intelligent system that makes everything work together."`}
 			/>
 
 			<!-- Team Member & CTA Section -->
