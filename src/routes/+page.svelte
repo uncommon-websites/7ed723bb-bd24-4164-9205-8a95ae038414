@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	title="Your AI growth assistant for local business"
+	subtitle="One simple system that coordinates your tools, handles routine work, and delivers insights through channels you already use."
+	imageSrc="/generated/image-editorial-documentary-photograph-of-a-sm.webp"
+	centered={false}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by growing local businesses"
+	logoUrls={[
+		'https://cdn.brandfetch.io/sweetgreen.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/warbyparker.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/bluestonelane.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/purebarre.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
